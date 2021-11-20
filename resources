@@ -1,4 +1,5 @@
 yum install git
 pip3 install flask
+pip3 install nltk
 pip3 install sec-api
 pip3 install python-engineio==3.14.2 python-socketio[client]==4.6.0
