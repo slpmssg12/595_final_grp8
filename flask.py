@@ -1,7 +1,9 @@
 
-from flask import Flask, response, request, flash, url_for, jsonify, render_template
-from nltk.tokenize import RegexpTokenizer
+
+from flask import (Flask, render_template, flash,
+                    request, jsonify, Markup)
 import json
+from nltk.tokenize import RegexpTokenizer
 import re
 import sec_api
 import socketio
