@@ -17,7 +17,8 @@ app = Flask(__name__) # "__main__"
 @app.route('/grp8', methods=['GET', 'POST'])
 def flask_import():
   return """<html>
-  <head>
+  <h1>FA595 Final<h1><br><br>
+<h2>Group 8: Zemin Li, Sherri Putnam, Spencer Tirella</h2>
   <title>FA595 Grp 8 Final Project</title>
 </head>
   <body>
