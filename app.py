@@ -17,7 +17,7 @@ app = Flask(__name__) # "__main__"
 @app.route('/grp8', methods=['GET', 'POST'])
 def flask_import():
   return """<html>
-  <h1>FA595 Final Project<h1><br><br>
+  <h1>FFA595 Grp 8 Final Project<h1><br><br>
 <h2>Group 8: Zemin Li, Sherri Putnam, Spencer Tirella</h2>
   <title>FA595 Grp 8 Final Project</title>
 </head>
@@ -25,7 +25,7 @@ def flask_import():
  <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div id="tradingview_1542b"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="black-text">595 Final Project</span></a> by Group 8</div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="black-text">resource: https://www.tradingview.com/widget</span></a> by Group 8</div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
   new TradingView.widget(
