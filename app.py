@@ -17,9 +17,9 @@ app = Flask(__name__) # "__main__"
 @app.route('/grp8', methods=['GET', 'POST'])
 def flask_import():
   return """<html>
-  <h1>h1: FA595 Grp 8 Final Project<h1><br><br>
-<h2>h2: Group 8: Zemin Li, Sherri Putnam, Spencer Tirella</h2>
-  <title>title: Group 8: Zemin Li, Sherri Putnam, Spencer Tirella</title>
+  <h1>Group 8: Zemin Li, Sherri Putnam, Spencer Tirella<h1><br><br>
+<h2>FA595 Final Project</h2>
+  <title>title</title>
 </head>
   <body>
  <!-- TradingView Widget BEGIN -->
